@@ -1,33 +1,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/mapGetMyLocation"
-        android:showAsAction="always"
-        android:title="@string/get_my_location">
-    </item>
+        android:id="@+id/mapTypeNormal"
+        android:title="@string/normal"/>
     <item
-        android:showAsAction="always"
-        android:title="@string/map_type">
-        <menu>
-            <item
-                android:id="@+id/mapTypeNormal"
-                android:title="@string/normal"/>
-            <item
-                android:id="@+id/mapTypeSatellite"
-                android:title="@string/satellite"/>
-            <item
-                android:id="@+id/mapTypeTerrain"
-                android:title="@string/terrain"/>
-            <item
-                android:id="@+id/mapTypeHybrid"
-                android:title="@string/hybrid"/>
-            <item
-                android:id="@+id/mapTypeNone"
-                android:title="@string/none"/>
-            <item
-                android:id="@+id/mapTestRouting"
-                android:title="@string/test_routing"/>
-        </menu>
-    </item>
+        android:id="@+id/mapTypeSatellite"
+        android:title="@string/satellite"/>
+    <item
+        android:id="@+id/mapTypeTerrain"
+        android:title="@string/terrain"/>
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="@string/hybrid"/>
+    <item
+        android:id="@+id/mapTypeNone"
+        android:title="@string/none"/>
 
 </menu>
