@@ -9,5 +9,9 @@
     <string name="terrain">Terrain</string>
     <string name="hybrid">Hybrid</string>
     <string name="none">None</string>
+    <string name="get_my_location">Get My Location</string>
+    <string name="map_type">Map Type</string>
+    <string name="marker_name">Marker Name</string>
+    <string name="test_routing">Test Routing</string>
 
 </resources>
